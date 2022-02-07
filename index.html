@@ -3,7 +3,6 @@
     <head>
         <meta charset="UTF-8">
         <title>Duckgu's Stock</title>
-
         <style>
             /* 맨 위의 웹페이지 이름과 그 밑의 설명을 더 가까이 해놓기 위해 만들어놓은 id */
             #Engexplain{
@@ -15,8 +14,14 @@
                 text-align:center;
                 margin-bottom:0px;
             }
-            h2{
+            #ralign{
                 text-align:right;
+            }
+
+            /* madeby + 블로그 링크들 사이의 간격을 줄이기 위함 */
+            #delmargin{
+                margin-top:3px;
+                margin-bottom:5px;
             }
 
             /* 링크의 밑줄을 지우기 위해 만든 class */
@@ -24,10 +29,24 @@
                 text-decoration: none;
             }
 
-            /* 가로줄을 만들기위해 만들어놓은 id */
+            /* 가로줄을 만들기 위한 id -> horizontal, columns + 세로줄 만들기 위한 grid + rbord */
             #horizontal{
+                margin-top:5px;
                 border-bottom:1px solid black;
                 padding-bottom:10px;
+                margin-bottom:10px;
+            }
+            #grid{
+                display: grid;
+                grid-template-columns: 200px 1fr;
+            }
+            .rbord{
+                border-right:1px solid black;
+                padding-right:10px;
+            }
+            
+            .maintext{
+                padding-left:15px;
             }
 
         </style>
@@ -38,19 +57,28 @@
         <p style="text-align:center" id="Engexplain"> Duckgu's Stock, Duckgu Stock </p>
 
         <!-- 추가적으로 유도할 수 있는 나의 블로그 -->
-        <p style="text-align:right">Made by 황덕구</p>
-        <h2><a href="https://blog.naver.com/h388" target="_blank" class="link"> 황덕구's Life Like (Book / Develop) </a></h2>
-        <h2 id="horizontal"><a href="https://stocks-duckgu.tistory.com" target="_blank" class="link"> 황덕구의 주식 이야기 (Stock)</a></h2>
+        <div id="ralign">
+            <p style="margin-bottom:3px">Made by 황덕구</p>
+            <h2 id="delmargin"><a href="https://blog.naver.com/h388" target="_blank" class="link"> 황덕구's Life Like (Book / Develop) </a></h2>
+            <h2 id="horizontal"><a href="https://stocks-duckgu.tistory.com" target="_blank" class="link">황덕구의 주식 이야기 (Stock)</a></h2>
+        </div>
 
         <!-- 관심주식 카테고리 -->
-        <p><strong>덕구의 관심 주식</strong></p>
-        <ul>
-            <li>한국주식</li>
-            <li>미국주식</li>
-        </ul>
+        <div id="grid">
+            <div class="rbord">
+                <p><strong>덕구의 관심 주식</strong></p>
+                <ul>
+                    <li>한국주식</li>
+                    <li>미국주식</li>
+                </ul>
+            </div>
 
-        <!-- 카테고리를 선택했을 때 나오는 개별 종목들의 요약 페이지 -->
-        <h3>애플</h3>
-        <p> [주가 실시간 차트가 들어갈 공간] </p>
+            <!-- 카테고리를 선택했을 때 나오는 개별 종목들의 요약 페이지 -->
+            <div class="maintext">
+                <h3>애플</h3>
+                <p> [주가 실시간 차트가 들어갈 공간] </p>
+                <p> [종목에 대한 뉴스가 올라갈 공간] </p>
+            </div>
+        </div>
     </body>
     </html>
