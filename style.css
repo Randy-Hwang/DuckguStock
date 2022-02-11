@@ -1,8 +1,8 @@
+/* Header part */
 /* 맨 위의 웹페이지 이름과 그 밑의 설명을 더 가까이 해놓기 위해 만들어놓은 id */
 #Engexplain{
     margin-top:0px;
 }
-
 /* h1태그는 중앙정렬, h2태그는 우측정렬을 하기 한 태그 */
 h1{
     text-align:center;
@@ -11,18 +11,15 @@ h1{
 #ralign{
     text-align:right;
 }
-
 /* madeby + 블로그 링크들 사이의 간격을 줄이기 위함 */
 #delmargin{
     margin-top:3px;
     margin-bottom:5px;
 }
-
 /* 링크의 밑줄을 지우기 위해 만든 class */
 .link{ 
     text-decoration: none;
 }
-
 /* 가로줄을 만들기 위한 id -> horizontal, columns + 세로줄 만들기 위한 grid + rbord */
 #horizontal{
     margin-top:5px;
@@ -38,7 +35,8 @@ h1{
     border-right:1px solid black;
     padding-right:10px;
 }
-            
+
+/* Main part*/
 main{
     padding-left:15px;
 }
