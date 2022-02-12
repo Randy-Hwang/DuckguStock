@@ -4,6 +4,7 @@ h1{
     margin-bottom:0px;
     text-decoration: none;
 }
+/* 메뉴의 윗줄 */
 h1 + p{
     text-align:center;
     margin-top: 8px;
@@ -11,6 +12,7 @@ h1 + p{
     padding-bottom: 10px;
     border-bottom: 1px solid black;
 }
+/* 메뉴 정렬 + 메뉴의 아랫줄 */
 #menu{
     display:flex;
     justify-content: space-evenly;
