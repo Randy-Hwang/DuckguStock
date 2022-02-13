@@ -1,0 +1,34 @@
+:root{
+    --main-color: cornflowerblue;
+    --border-setting: 2px solid var(--main-color);
+}
+
+h1{
+    text-align:center;
+    font-size:50px;
+    padding:20px;
+}
+h1 a{
+    text-decoration: none;
+    color: var(--main-color);
+}
+
+/* 메뉴의 윗줄 */
+h1 + p{
+    font-size: 17px;
+    text-align:center;
+    margin-top: 4px;
+    margin-bottom: 15px;
+    padding-bottom: 25px;
+    border-bottom: var(--border-setting);
+}
+
+/* 메뉴 정렬 + 메뉴의 아랫줄 */
+#menu{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom:var(--border-setting);
+    padding-bottom: 20px;
+    font-weight: 700;
+}

@@ -1,0 +1,29 @@
+@import "reset.css";
+@import "header.css";
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet&display=swap');
+
+body{
+    font-family: 'Hahmlet', serif;
+}
+
+/* Main part*/
+main{
+    text-align: center;
+    padding: 20px;
+}
+
+main h3{
+    display:inline;
+    border-bottom: var(--border-setting);
+    font-size: 30px;
+    font-weight: 700;
+    padding: 7px;
+}
+
+main :nth-child(2) {
+    padding-top: 20px;
+}
+
+main p{
+    margin: 10px;
+}
