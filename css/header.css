@@ -1,9 +1,16 @@
+/* 웹사이트 제목 폰트 */
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet&display=swap');
+/* 웹사이트 기본 폰트 */
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Hahmlet&display=swap');
+
 :root{
     --main-color: cornflowerblue;
     --border-setting: 2px solid var(--main-color);
+    --main-font: 'Do Hyeon', sans-serif;
 }
 
 h1{
+    font-family: 'Hahmlet', serif;
     text-align:center;
     font-size:50px;
     padding:20px;
@@ -15,7 +22,8 @@ h1 a{
 
 /* 메뉴의 윗줄 */
 h1 + p{
-    font-size: 17px;
+    font-family: var(--main-font);
+    font-size: 24px;
     text-align:center;
     margin-top: 4px;
     margin-bottom: 15px;
@@ -25,7 +33,8 @@ h1 + p{
 
 /* 메뉴 정렬 + 메뉴의 아랫줄 */
 #menu{
-    font-size:20px;
+    font-family: var(--main-font);
+    font-size:22px;
     text-decoration: none;
     display: flex;
     justify-content: space-around;
@@ -36,7 +45,7 @@ h1 + p{
 
 /* 메뉴 꾸미기 */
 li{
-    font-size:15px;
+    font-size:20px;
     padding:5px;
     margin:2px;
 }
