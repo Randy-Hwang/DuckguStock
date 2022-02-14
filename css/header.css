@@ -25,10 +25,23 @@ h1 + p{
 
 /* 메뉴 정렬 + 메뉴의 아랫줄 */
 #menu{
+    font-size:20px;
     text-decoration: none;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     border-bottom:var(--border-setting);
     padding-bottom: 20px;
     font-weight: 700;
+}
+
+/* 메뉴 꾸미기 */
+li{
+    font-size:15px;
+    padding:5px;
+    margin:2px;
+}
+
+#menu a{
+    text-decoration: none;
+    color:black;
 }
