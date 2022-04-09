@@ -1,6 +1,5 @@
 @import "reset.css";
 @import "header.css";
-@import "textEditor.css";
 /* Main part*/
 main {
   font-family: var(--main-font);
