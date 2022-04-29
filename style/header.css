@@ -1,56 +1,78 @@
 /* 웹사이트 제목 폰트 */
-@import url('https://fonts.googleapis.com/css2?family=Hahmlet&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Hahmlet&display=swap");
 /* 웹사이트 기본 폰트 */
-@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Hahmlet&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Hahmlet&display=swap");
 
-:root{
-    --main-color: cornflowerblue;
-    --border-setting: 2px solid var(--main-color);
-    --main-font: 'Do Hyeon', sans-serif;
+:root {
+  --main-color: cornflowerblue;
+  --border-setting: 2px solid var(--main-color);
+  --main-font: "Do Hyeon", sans-serif;
 }
 
-h1{
-    font-family: 'Hahmlet', serif;
-    text-align:center;
-    font-size:50px;
-    padding:20px;
+#weather,
+#clock {
+  font-family: var(--main-font);
+  font-size: 20px;
+  position: absolute;
+  top: 5px;
+  left: 5px;
 }
-h1 a{
-    text-decoration: none;
-    color: var(--main-color);
+
+#weather {
+  top: 10px;
+}
+#weather span:first-child {
+  margin-right: 3px;
+}
+
+#weather-icon {
+  width: 30px;
+  margin-left: 3px;
+}
+
+h1 {
+  font-family: "Hahmlet", serif;
+  text-align: center;
+  font-size: 50px;
+  padding: 20px;
+}
+
+h1 a {
+  text-decoration: none;
+  color: var(--main-color);
 }
 
 /* 메뉴의 윗줄 */
-h1 + p{
-    font-family: var(--main-font);
-    font-size: 24px;
-    text-align:center;
-    margin-top: 4px;
-    margin-bottom: 15px;
-    padding-bottom: 25px;
-    border-bottom: var(--border-setting);
+.explain {
+  font-family: var(--main-font);
+  font-size: 24px;
+  text-align: center;
+  margin-top: 4px;
+  margin-bottom: 15px;
+  padding-bottom: 25px;
+  border-bottom: var(--border-setting);
 }
 
 /* 메뉴 정렬 + 메뉴의 아랫줄 */
-#menu{
-    font-family: var(--main-font);
-    font-size:22px;
-    text-decoration: none;
-    display: flex;
-    justify-content: space-around;
-    border-bottom:var(--border-setting);
-    padding-bottom: 20px;
-    font-weight: 700;
+#menu {
+  font-family: var(--main-font);
+  font-size: 22px;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: var(--border-setting);
+  padding-bottom: 20px;
+  font-weight: 700;
 }
 
 /* 메뉴 꾸미기 */
-li{
-    font-size:20px;
-    padding:5px;
-    margin:2px;
+li {
+  font-size: 20px;
+  padding: 5px;
+  margin: 2px;
 }
 
-#menu a{
-    text-decoration: none;
-    color:black;
+#menu a {
+  text-decoration: none;
+  color: black;
 }
