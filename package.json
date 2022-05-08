@@ -1,0 +1,23 @@
+{
+  "name": "duckgustock",
+  "version": "1.0.0",
+  "description": "duckgu's first project",
+  "main": "js/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Randy-Hwang/DuckguStock.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Randy-Hwang/DuckguStock/issues"
+  },
+  "homepage": "https://github.com/Randy-Hwang/DuckguStock#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cheerio": "^1.0.0-rc.10"
+  }
+}
