@@ -1,5 +1,5 @@
-@import "reset.css";
-@import "header.css";
+@import "./reset.css";
+@import "./header.css";
 /* Main part*/
 main {
   font-family: var(--main-font);
