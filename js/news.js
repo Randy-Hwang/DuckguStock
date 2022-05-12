@@ -23,7 +23,7 @@ getHTML()
     // bodyList를 순회하며 titleList에 div > div > a의 내용을 저장
     bodyList.each(function (i, elem) {
       titleList[i] = {
-        title: $(this).find("div div a").text(),
+        title: $(this).find("div div a.news_tit").text(),
       };
     });
     return titleList;
