@@ -19,22 +19,22 @@
         <details>
           <summary>한국 주식</summary>
           <ul>
-            <li><a href="#">삼성전자</a></li>
-            <li><a href="#">Naver</a></li>
+            <li><button id="samsung">삼성전자</button></li>
+            <li><button id="naver">Naver</button></li>
           </ul>
         </details>
         <details>
           <summary>미국 주식</summary>
           <ul>
-            <li><a href="#">Apple</a></li>
-            <li><a href="#">Tesla</a></li>
-            <li><a href="#">Google</a></li>
-            <li><a href="#">Microsoft</a></li>
-            <li><a href="#">Nvidia</a></li>
+            <li><button id="apple">Apple</button></li>
+            <li><button id="tesla">Tesla</button></li>
+            <li><button id="google">Google</button></li>
+            <li><button id="microsoft">Microsoft</button></li>
+            <li><button id="nvidia">Nvidia</button></li>
           </ul>
         </details>
         <details>
-          <summary><a href="#">About</a></summary>
+          <summary><button>About</button></summary>
         </details>
       </div>
     </header>
@@ -42,13 +42,15 @@
     <!-- 카테고리를 선택했을 때 나오는 개별 종목들의 요약 페이지 -->
     <main>
       <div id="chart"></div>
-      <div id="news"></div>
+      <div id="news">
+        <ul id="crawlled"></ul>
+      </div>
     </main>
     <script
       src="https://kit.fontawesome.com/3bc8b8fdee.js"
       crossorigin="anonymous"
     ></script>
     <script src="../js/clock.js"></script>
-    <script src="../js/news.js"></script>
+    <script src="../js/news.js" type="module"></script>
   </body>
 </html>

@@ -72,7 +72,8 @@ li {
   margin: 2px;
 }
 
-#menu a {
+#menu button {
   text-decoration: none;
   color: black;
+  background-color: white;
 }
