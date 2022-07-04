@@ -1,10 +1,6 @@
-# Getting Started with Create React App
+# DuckguStock
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
+저의 첫 개인 프로젝트입니다. 제가 주식을 하고있기에, 제가 투자한 종목들만 한 군데에 모아서 표현하는것이
 
 ### `npm start`
 
