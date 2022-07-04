@@ -1,25 +1,70 @@
-# Duckgu's Stock, 덕구스톡
+# Getting Started with Create React App
 
-## 첫 Repository ⭐️
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-- **_저의 첫 개인 프로젝트이자 첫 레포지토리입니다._** 주식을 꾸준하게 하고있기에, 제가 투자하고 있는 종목에 대한 정보를 한 페이지에서 다 볼 수 있었으면 좋겠다는 생각을 했습니다.
+## Available Scripts
 
-- 구현하고자 하는 기능들은 다음이 있습니다.
+In the project directory, you can run:
 
-  > 1. 한국주식 / 미국주식 / About이라는 메뉴를 클릭했을 때, 하위 종목 리스트업
-  >
-  > 2. 실시간 차트와, 관련 정보(경제신문의 뉴스, 유튜브) 들을 크롤링하여 웹페이지 내에 배치
-  >
-  > 3. CRUD를 이용해 나의 투자전략 / 투자 상태 등을 업데이트 할 것
-  >
-  > 4. 나의 투자전략에 사람들이 자유롭게 댓글, 좋아요 등을 달고 그 댓글에 답글을 달 수 있을 것
+### `npm start`
 
-  정도가 되겠습니다. 여기에 애니메이션을 센스있게 추가하여 더 감각적인 웹페이지로 거듭나겠습니다.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-- 프로젝트를 위한 프로젝트가 아니라, **_지속적으로 사용이 가능한 프로젝트를 만들고자 노력하고 있습니다._**
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-  - 개인적으로 투자할 때에도 저의 이 덕구스톡을 이용할 날을 기대하고 있습니다.
+### `npm test`
 
-  - 제가 투자하고 있는 종목의 분위기(뉴스)를 한눈에 확인하고, 제가 어떻게 투자할지 CRUD를 활용해 기록을 남겨놓음으로서, 저의 생각 변화를 살펴볼 수도 있을겁니다.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-  - 투자자들이 작성하는 투자 다이어리를 저의 웹페이지로 구현하는겁니다.
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
