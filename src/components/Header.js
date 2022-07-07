@@ -1,13 +1,13 @@
-import pawImg from "../paw-solid.svg";
 import HeaderCss from "../module/Header.module.css";
+import StockNav from "./StockNav";
 
 const Header = () => {
   return (
-    <div className={HeaderCss.header}>
-      <h1>
-        DuckguStock
-        <img src={pawImg} className={HeaderCss.logo} alt="dogs paw" />
-      </h1>
+    <div>
+      <h1 className={HeaderCss.title}>DuckguStock</h1>
+      <div>
+        <StockNav />
+      </div>
     </div>
   );
 };
