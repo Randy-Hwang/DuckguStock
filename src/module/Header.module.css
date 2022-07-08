@@ -2,8 +2,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #b0d8e7;
   color: black;
   height: 100px;
   font-size: 50px;
+  margin-bottom: 0;
+  cursor: pointer;
+}
+
+#header {
+  background-color: #b0d8e7;
 }
