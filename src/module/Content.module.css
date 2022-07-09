@@ -1,0 +1,7 @@
+.stockTitle {
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 2px solid #b0d8e7;
+  border-bottom: 2px solid #b0d8e7;
+}

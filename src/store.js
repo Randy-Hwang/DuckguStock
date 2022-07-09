@@ -1,8 +1,8 @@
 import { configureStore } from "@reduxjs/toolkit";
-import stockData from "./state/USstock";
+import stockState from "./state/stockState";
 
 export default configureStore({
   reducer: {
-    stockData: stockData.reducer,
+    stockState: stockState.reducer,
   },
 });

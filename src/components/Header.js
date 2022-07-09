@@ -52,6 +52,7 @@ const Header = () => {
                 NAVER
               </NavDropdown.Item>
             </NavDropdown>
+            <Nav.Link onClick={() => navigate("/about")}>About</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
